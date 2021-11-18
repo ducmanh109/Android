@@ -5,12 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
-    <Button
-        android:id="@+id/btnSendBroadcast"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Send Broadcast"/>
+    android:gravity="center">
+
     <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
@@ -18,4 +14,5 @@
         android:textSize="36sp"
         android:textColor="@android:color/black"
         android:gravity="center"/>
+
 </LinearLayout>
